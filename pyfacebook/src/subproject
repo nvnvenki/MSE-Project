@@ -1,0 +1,16 @@
+Goal:
+Given a text - something that can have more than a sentence - for example a comment,
+substitute the common abbrevations used in the social media parlours 
+
+Steps
+1) The work is to be divided among five of us 
+   where each student owns a unique fb page
+
+   A time limit of one hour is imposed on every student
+   within this time each student goes through the selected page and produces a text file where each line in the  file contains an abbrevation. 
+
+2) Write a program that takes all the text files as input and read each file into a list and perform a union and write the output to the file output.txt
+
+3) Equitably distribute the number of abbrevations and replace the abbrevation with the actual string 
+
+4) merge all the outputs

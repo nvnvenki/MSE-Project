@@ -1,0 +1,9 @@
+-------------------------------------------------
+url                                     handle
+-------------------------------------------------
+https://twitter.com/BiggBoss            @BiggBoss
+https://twitter.com/ten_sports          @ten_sports
+https://twitter.com/STARCricketIN       @STARCricketIN
+https://twitter.com/espn                @espn
+https://twitter.com/NEO_Sports          @NEO_Sports
+

@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Highcharts Example</title>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script src="/home/venkatesh/Venki/MSE_Project/FronEnd/Highcharts-3.0.7/examples/jquery.js"></script>
+		<script type="text/javascript">
+$(function() {
+    $('#container').highcharts({
+
+        chart: {
+            type: 'bubble',
+            plotBorderWidth: 1,
+            zoomType: 'xy'
+        },
+
+        title: {
+            text: 'Highcharts bubbles with radial gradient fill'
+        },
+
+        xAxis: {
+            gridLineWidth: 1
+        },
+
+        yAxis: {
+            startOnTick: false,
+            endOnTick: false
+        },
+
+        series: [{
+            data: [
+                [9, 81, 63],
+                [98, 5, 89],
+                [51, 50, 73],
+                [41, 22, 14],
+                [58, 24, 20],
+                [78, 37, 34],
+                [55, 56, 53],
+                [18, 45, 70],
+                [42, 44, 28],
+                [3, 52, 59],
+                [31, 18, 97],
+                [79, 91, 63],
+                [93, 23, 23],
+                [44, 83, 22]
+            ]
+        }]
+
+    });
+});
+		</script>
+	</head>
+	<body>
+<script src="../../js/highcharts.js"></script>
+<script src="../../js/highcharts-more.js"></script>
+
+<div id="container" style="min-width: 310px; max-width: 600px; height: 400px; margin: 0 auto;"></div>
+	</body>
+</html>

@@ -1,0 +1,51 @@
+	*
+	{
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+		color: #5A5A5A;
+	}
+	
+	#page-header
+	{
+		margin: auto;
+		color: #575555;
+		width: 700px;
+		text-align: center;
+		border: 1px solid #d3d3d3;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-radius: 5px;
+		margin-top: 10px;
+		font-size: 60px;
+	}
+
+	div.button-div
+	{
+		margin-top: 10px;
+	}
+	#graph-container-tweets-followers,#graph-container-retweets,#graph-container-followers
+	{
+		border: 1px solid #d3d3d3;
+		border-radius: 5px;
+		width: 700px;
+		margin: auto;
+		margin-top: 10px;
+
+	}
+
+	#graph-container-tweets-followers
+	{
+
+		margin-bottom: 30px;
+	}
+
+	#graph-container-tweets,#graph-container-followers
+	{
+		/*display: none;*/
+	}
+	
+	#graph-container-retweets
+	{
+		/*display: none;*/
+	}

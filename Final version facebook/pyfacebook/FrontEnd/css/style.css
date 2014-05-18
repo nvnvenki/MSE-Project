@@ -1,0 +1,85 @@
+*
+	{
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+		color: #5A5A5A;
+	}
+	
+	@font-face
+	{
+		font-family: metropolisfont;
+		src: url(metropolis.otf);
+	}
+
+	@font-face
+	{
+		font-family: ridgeregular;
+		src: url(ridge-regular.otf);
+	}
+
+	#page-header
+	{
+		margin: auto;
+		color: #575555;
+		width: 700px;
+		text-align: center;
+		border: 1px solid #d3d3d3;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-radius: 5px;
+		margin-top: 10px;
+		font-family: metropolisfont;
+		font-size: 60px;
+	}
+
+	div.button-div
+	{
+		margin-top: 10px;
+	}
+	#graph-container-programs,#graph-container-comments
+	{
+		border: 1px solid #d3d3d3;
+		border-radius: 5px;
+		width: 700px;
+		margin: auto;
+		margin-top: 10px;
+	}
+
+	button
+	{
+		width: 160px;
+		padding: 6px 10px 8px;
+		border: none rgba(0, 0, 0, 0);
+		background-color: rgb(0, 120, 231);
+		border-radius: 15px;
+	   	color: #fff;
+		-webkit-transition: 0.1s linear -webkit-box-shadow;
+		-moz-transition: 0.1s linear -moz-box-shadow;
+	}
+
+	button:hover
+	{
+		cursor: pointer;
+	        background-image: -webkit-linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+                background-image: -moz-linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+	}
+	
+	button#c{
+		margin-left: 12%;
+	}
+
+	@media (min-width: 300px) and (max-width: 400px) { 
+		
+		button{
+			
+			display: inline-block;
+		}
+
+		button#p
+		{
+			margin-top: 5px;
+			margin-left: 31px;
+		}
+	}
+	
